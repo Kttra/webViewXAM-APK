@@ -27,7 +27,11 @@ Let's say you're trying to test loading random webpages on a search engine like 
 ```
 https://www.google.com/search?q=define+hello
 ```
-We can append the random string to:
+To get a random search result, we can append the random string to:
 ```
 https://www.google.com/search?q=
 ```
+
+**Editing the Source Code**
+---------------
+To edit the methods and webpages, refer to the file "MainActivity.cs". To edit the UI refer to the file "activity_main.xml" located in the Resources/layout folder. To edit the navigation bar, refer to the file "navigation.xml" in the Resources/menu folder.
