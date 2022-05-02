@@ -12,7 +12,6 @@ using Google.Android.Material.BottomNavigation;
 using Android.Webkit;
 using System;
 using System.Linq;
-//using System.IO;
 using System.Threading; //Async
 using System.Threading.Tasks; //Tasks
 
@@ -169,7 +168,7 @@ namespace MultiTabbedApp
                 }
 
                 //Load random webpage
-                string address = "https://www.google.com/search?q=define+" + Globals.RandomLetters(Globals.RandomNumber(7));
+                string address = "https://www.google.com/search?q=" + Globals.RandomLetters(Globals.RandomNumber(7));
                 webView.LoadUrl(address);
 
                 //Update Progress
@@ -206,7 +205,7 @@ namespace MultiTabbedApp
                 }
 
                 //Load random webpage
-                string address = "https://www.google.com/search?q=define+" + Globals.RandomLetters(Globals.RandomNumber(7));
+                string address = "https://www.google.com/search?q=" + Globals.RandomLetters(Globals.RandomNumber(7));
                 webView.LoadUrl(address);
 
                 //Update Progress
@@ -242,7 +241,7 @@ namespace MultiTabbedApp
                 }
 
                 //Load random webpage
-                string address = "https://www.google.com/search?q=define+" + Globals.RandomLetters(Globals.RandomNumber(7));
+                string address = "https://www.google.com/search?q=" + Globals.RandomLetters(Globals.RandomNumber(7));
                 webView.LoadUrl(address);
 
                 //Update Progress
@@ -266,9 +265,9 @@ namespace MultiTabbedApp
     static class Globals
     {
         //Number of searches to do for each category
-        public static int edgeMaxTask = 6;
-        public static int mobileMaxTask = 22;
-        public static int desktopMaxTask = 32;
+        public static int edgeMaxTask = 4;
+        public static int mobileMaxTask = 4;
+        public static int desktopMaxTask = 4;
         //Whether or not the task is running
         public static bool inProgress = false;
         //Cancel requests for specific tasks, alternative to cts
