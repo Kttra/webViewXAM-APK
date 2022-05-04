@@ -50,6 +50,9 @@ To get a random search result, we can append the random string to:
 ```
 https://www.google.com/search?q=
 ```
+**Other App Versions**
+---------------
+I have included two other versions of this app in the source code. The main version and XamarinApp use xamarin android while the webViewXamarin one uses Xamarin forms. XamarinApp is the version that does not include tabs nor buttons. It is a fresh start. On the other hand, webViewXamarin includes tabs and a single button. Because it is made using Xamarin forms, it is compatible with iOS devices.
 
 **Editing the Source Code**
 ---------------
