@@ -178,8 +178,13 @@ namespace MultiTabbedApp
                 await Task.Delay(Globals.RandomTime(7500));
             }
 
+            try{
             await Desktop(cts.Token);
-            await Mobile(cts.Token);
+            await Mobile(cts.Token);            
+            }
+            catch{
+                //Token was disposed off
+            }
         }
         //Desktop Task
         private async Task Desktop(CancellationToken cancellationToken)
