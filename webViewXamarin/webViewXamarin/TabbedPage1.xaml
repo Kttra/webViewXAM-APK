@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="webViewXamarin.TabbedPage1"
+            xmlns:local="clr-namespace:webViewXamarin"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BackgroundColor="AliceBlue"
+            SelectedTabColor="Black"
+            UnselectedTabColor="Gray"> <!--Name of app, background color, -->
+    <!--Pages can be added as references or inline-->
+    <local:MainPage Title = "Browser"> <!--Name of page-->
+        
+    </local:MainPage>
+    <ContentPage BackgroundColor = "Pink" Title="Mobile">
+        <!--<Button Text ="Navigate" Clicked="Button_Clicked"/>-->
+    </ContentPage>
+    <ContentPage BackgroundColor = "Orange" Title="Tab 3" />
+</TabbedPage>

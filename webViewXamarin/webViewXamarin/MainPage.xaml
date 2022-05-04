@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="webViewXamarin.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- This row will be stretched -->
+            <RowDefinition Height="*"/>
+            
+            <!-- The size of this row is determined by the size properties of the content object. -->
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <WebView x:Name = "webView" Grid.Row="0"/>
+        <Button Text ="Navigate" Clicked="Button_Clicked" Grid.Row="1"></Button>
+    </Grid>
+
+    <!--<WebView x:Name = "webView"></WebView>-->
+
+</ContentPage>
