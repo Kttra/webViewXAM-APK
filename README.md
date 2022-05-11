@@ -57,3 +57,11 @@ I have included two other versions of this app in the source code. The main vers
 **Editing the Source Code**
 ---------------
 To edit the methods and webpages, refer to the file "MainActivity.cs". To edit the UI refer to the file "activity_main.xml" located in the Resources/layout folder. To edit the navigation bar, refer to the file "navigation.xml" in the Resources/menu folder.
+
+**Other Related Projects**
+-----------------
+Below are other similar projects related to this application.
+
+[WebView2 Template](https://github.com/Kttra/webView2Template) - A template program of a webview2 application. In the repo, there is also a desktop version of this xamarin app.
+
+[Screenshot Webpage](https://github.com/Kttra/ScreenshotWebpage) - A webview2 project made to screenshot the entire webpage that it is on.
